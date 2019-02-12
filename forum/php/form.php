@@ -14,7 +14,7 @@
 		$result = mysqli_query($con,$query) or die(mysql_error());
 		$rows = mysqli_num_rows($result);
         
-		if($rows==1){
+		if($rows==1){ 
 	    $_SESSION['email'] = $email;
             // Checks if email already exists
 			$_SESSION['message'] = 'User with that email account already exists!';
