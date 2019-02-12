@@ -34,25 +34,34 @@
     }
 ?>
 
-
-<link href="//db.onlinewebfonts.com/c/a4e256ed67403c6ad5d43937ed48a77b?family=Core+Sans+N+W01+35+Light" rel="stylesheet" type="text/css"/>
-<link rel="stylesheet" href="../css/form.css" type="text/css">
-	<header>
-	  <h1 id="legolas">Legolas</h1>
-	</header>
-	<div class="body-content">
-	  <div class="module">
-		<h1>Welcome to Legolas</h1>
-		<h2>Sign in with your Legolas account</h2>
-		<form class="form" action="login.php" method="post" enctype="multipart/form-data" autocomplete="off">
-		  <div class="alert alert-error"><?= $_SESSION['message'] ?></div>
-		  <input type="text" placeholder="Username" name="username" required /> 
-		  <input type="password" placeholder="Password" name="password" required />
-		  <input type="submit" value="Login" name="register" class="btn btn-block btn-primary" />
-		</form>
-		<p>Not registered yet? <a href='form.php'>Register Here</a></p>
-	  </div>
-	  <footer>
-		<p class="copyright">&copy; Legolas.com</p>
-	  </footer>
-	</div>
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Login</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="//db.onlinewebfonts.com/c/a4e256ed67403c6ad5d43937ed48a77b?family=Core+Sans+N+W01+35+Light" rel="stylesheet" type="text/css"/>
+		<link rel="stylesheet" href="../css/form.css" type="text/css">
+	</head>
+	<body>
+		<header>
+		  <h1 id="legolas">Legolas</h1>
+		</header>
+		<div class="body-content">
+		  <div class="module">
+			<h1>Welcome to Legolas</h1>
+			<h2>Sign in with your Legolas account</h2>
+			<form class="form" action="login.php" method="post" enctype="multipart/form-data" autocomplete="off">
+			  <div class="alert alert-error"><?= $_SESSION['message'] ?></div>
+			  <input type="text" placeholder="Username" name="username" required /> 
+			  <input type="password" placeholder="Password" name="password" required />
+			  <input type="submit" value="Login" name="register" class="btn btn-block btn-primary" />
+			</form>
+			<p>Not registered yet? <a href='form.php'>Register Here</a></p>
+		  </div>
+		  <footer>
+			<p class="copyright">&copy; Legolas.com</p>
+		  </footer>
+		</div>
+	</body>
+</html>
