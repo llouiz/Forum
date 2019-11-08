@@ -94,7 +94,7 @@
 			  <div class="avatar"><label>Select your avatar: </label><input type="file" name="avatar" accept="image/*" required /></div>
 			  <input type="submit" value="Register" name="register" class="btn btn-block btn-primary" />
 			</form>
-				<p>Has an account already? <a href='login.php'>Login here</a></p>
+				<p>Have an account already? <a href='login.php'>Login here</a></p>
 		  </div>
 		  <footer>
 			<p class="copyright">&copy; Legolas.com</p>
