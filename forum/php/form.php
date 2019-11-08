@@ -29,7 +29,7 @@
 				 if($rows == 1) {
 					 $_SESSION['username'] = $username;
 					 $_SESSION['message'] = 'Username already exists!';
-				 }else if($_SERVER['REQUEST_METHOD'] == 'POST') {
+				 }else if($_SERVER['REQUEST_METHOD'] == 'POST') { 
 						 if($_POST['password'] == $_POST['confirmpassword']) {
 							$username = $con->real_escape_string($_POST['username']);
 							$email = $con->real_escape_string($_POST['email']);
