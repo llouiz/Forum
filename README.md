@@ -8,3 +8,5 @@ Create a Database with a name of your preference, once the Database is created, 
 ## Authors
 
 * **Luiz Carlos** - *Initial work* - [luikz](https://github.com/luikz)
+
+See also the list of [contributors](https://github.com/luikz/Forum/graphs/contributors ) who participated in this project.
